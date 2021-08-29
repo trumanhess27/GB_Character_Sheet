@@ -1,5 +1,5 @@
 # GB_Character_Sheet
-Character sheet maker for Dungeons &amp; Dragons created in GB Studio. Because development is so early if you want to run the game you will have to download [GB Studio](https://www.gbstudio.dev/) and open the .gbsproj file with GB Studio.
+Character sheet maker for Dungeons &amp; Dragons created in GB Studio for the [Game Boy Competition 2021](https://itch.io/jam/gbcompo21). Because development is so early if you want to run the game you will have to download [GB Studio](https://www.gbstudio.dev/) and open the .gbsproj file with GB Studio.
 
 
 Here is the terribly drawn (by me) title screen for the game. 

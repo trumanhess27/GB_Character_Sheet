@@ -1,5 +1,5 @@
 # GB_Character_Sheet
-Character sheet maker for Dungeons &amp; Dragons created in GB Studio
+Character sheet maker for Dungeons &amp; Dragons created in GB Studio.
 
 
 Here is the terribly drawn (by me) title screen for the game. 

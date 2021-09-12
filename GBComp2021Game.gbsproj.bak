@@ -7442,8 +7442,8 @@
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
                                     "sceneId": "c7bed495-a69f-44db-bf16-c6ef16a3c25f",
-                                    "x": 0,
-                                    "y": 0,
+                                    "x": 9,
+                                    "y": 3,
                                     "direction": "",
                                     "fadeSpeed": "2"
                                 }
@@ -8334,8 +8334,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "6db3706a-6497-47c8-92bc-bce9fe3d2bb5",
-                                "x": 0,
-                                "y": 0,
+                                "x": 9,
+                                "y": 4,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -8346,9 +8346,9 @@
                         }
                     ],
                     "id": "1a3d8de5-338a-4be7-8cb4-504701eb7a11",
-                    "x": 6,
+                    "x": 4,
                     "y": 16,
-                    "width": 8,
+                    "width": 12,
                     "height": 2
                 },
                 {
@@ -8371,8 +8371,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
-                                "x": 0,
-                                "y": 0,
+                                "x": 1,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -8408,8 +8408,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
-                                "x": 0,
-                                "y": 0,
+                                "x": 1,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -8438,6 +8438,17 @@
                                     "type": "number",
                                     "value": 3
                                 }
+                            }
+                        },
+                        {
+                            "id": "bcba8503-6789-4506-ad07-d06a25a94ab9",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
+                                "x": 1,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
                             }
                         },
                         {
@@ -8471,8 +8482,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
-                                "x": 0,
-                                "y": 0,
+                                "x": 1,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -8508,8 +8519,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
-                                "x": 0,
-                                "y": 0,
+                                "x": 1,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -8529,7 +8540,7 @@
             "labelColor": "red"
         },
         {
-            "name": "ChooseClassScreen",
+            "name": "ChooseClassScreen1",
             "backgroundId": "c8e184e0-1023-4b85-9354-d6c291534eaa",
             "width": 20,
             "height": 18,
@@ -8955,8 +8966,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
-            "x": 591.0666666666655,
-            "y": 461.93333333333305,
+            "x": 592.2095238095226,
+            "y": 462.5047619047616,
             "actors": [],
             "triggers": [
                 {
@@ -8980,7 +8991,7 @@
                             "args": {
                                 "sceneId": "f4a64ae7-798d-4731-8189-9480775ea794",
                                 "x": 0,
-                                "y": 0,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -9451,7 +9462,7 @@
                             "args": {
                                 "sceneId": "0d5b153f-cf42-4543-909c-0ddb5185ee8e",
                                 "x": 0,
-                                "y": 0,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -9472,7 +9483,7 @@
         },
         {
             "name": "ChooseRaceScreen2",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "ef3a4f43-63f9-4aa3-b35a-e294373b1616",
             "width": 20,
             "height": 18,
             "type": "4",
@@ -9848,7 +9859,182 @@
             "x": 790.6666666666665,
             "y": 233.33333333333348,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "Gnome",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "9402a4ba-045c-439a-b13e-2fd5d45269f5",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "number",
+                                    "value": 6
+                                }
+                            }
+                        },
+                        {
+                            "id": "b7e01aff-07fd-45ab-ac18-ade7662beee2",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
+                                "x": 1,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "f49857cc-543a-4724-ae6d-5e1be06dc147",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "1243e5a0-1f36-4e81-a7f3-b6cbafe87210",
+                    "x": 2,
+                    "y": 6,
+                    "width": 6,
+                    "height": 2
+                },
+                {
+                    "name": "Half-Elf",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "1abe57c6-b730-424b-9a29-9e7ebb61e41d",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "number",
+                                    "value": 7
+                                }
+                            }
+                        },
+                        {
+                            "id": "e3040390-cecb-407c-ba7f-dbde8c87a8f0",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
+                                "x": 1,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "e9defb72-0826-47b7-b238-27b74cb8df27",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "f295ba13-97d1-4585-be93-f79a3369d7e3",
+                    "x": 12,
+                    "y": 6,
+                    "width": 6,
+                    "height": 2
+                },
+                {
+                    "name": "Half-Orc",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "87f26113-2957-41ce-a684-f6e0251fa57c",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "number",
+                                    "value": 8
+                                }
+                            }
+                        },
+                        {
+                            "id": "e537bd39-ab6f-496d-9013-5acfca0b1ca7",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
+                                "x": 1,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "b5c76427-4ddd-4463-977f-604c09fd76c1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "5039e00f-e42f-47d5-b06c-889fa83d11d4",
+                    "x": 2,
+                    "y": 10,
+                    "width": 6,
+                    "height": 2
+                },
+                {
+                    "name": "Tiefling",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "65755c4e-7696-4476-8584-0150853d87a6",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "number",
+                                    "value": 9
+                                }
+                            }
+                        },
+                        {
+                            "id": "dc31e422-c9a5-4de6-8a9c-a57083e4577e",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "40465130-61cf-45d0-8d98-9f3c6f1aa805",
+                                "x": 1,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2cada486-05dc-4f6f-9eac-1eb85d2b52d5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "6f15241c-7300-4bf7-b45d-d65ab50b16a6",
+                    "x": 12,
+                    "y": 10,
+                    "width": 6,
+                    "height": 2
+                },
+                {
+                    "name": "toChooseRaceScreen1",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "e8e01ce7-7f26-482a-bb5d-0b0960e9e35a",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c7bed495-a69f-44db-bf16-c6ef16a3c25f",
+                                "x": 9,
+                                "y": 3,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "4aef0614-343b-48ed-9cb4-71de800d4b86",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "58c73e0f-e8f4-448b-b648-91571eb8437b",
+                    "x": 4,
+                    "y": 16,
+                    "width": 12,
+                    "height": 2
+                }
+            ],
             "labelColor": "red"
         },
         {
@@ -31160,7 +31346,18 @@
             "imageHeight": 144,
             "filename": "choose_race_1.png",
             "inode": "2814749767436256",
-            "_v": 1630280297846
+            "_v": 1630283856752
+        },
+        {
+            "id": "ef3a4f43-63f9-4aa3-b35a-e294373b1616",
+            "name": "choose_race_2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "choose_race_2.png",
+            "inode": "1125899907186538",
+            "_v": 1630283898494
         },
         {
             "id": "8038ab8c-eb2e-4c58-96e0-dcd313b15ab6",
@@ -33916,8 +34113,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 515,
-        "worldScrollY": 53,
+        "worldScrollX": 556,
+        "worldScrollY": 1118,
         "zoom": 175,
         "customColorsEnabled": false,
         "customHead": "",
